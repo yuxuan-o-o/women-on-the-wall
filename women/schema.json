@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Half the Sky — Character Card",
+  "description": "A historical woman on the wall of Half the Sky (半边天). Each card contains Wikipedia-verified biographical facts, voice description, example dialogues, and character boundaries for AI persona use.",
+  "type": "object",
+  "required": ["id", "name", "years", "place", "facts", "voice"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe slug used as the character identifier, e.g. 'wu-zetian'"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name, optionally with native script, e.g. 'Wu Zetian 武则天'"
+    },
+    "years": {
+      "type": "string",
+      "description": "Lifespan, e.g. '624–705 AD' or 'c. 1797–1883'"
+    },
+    "place": {
+      "type": "string",
+      "description": "Primary geography, e.g. 'Tang China' or 'Warsaw · Paris'"
+    },
+    "facts": {
+      "type": "string",
+      "description": "Biographical facts sourced from Wikipedia or other verified encyclopedias. Specific dates, numbers, names, and direct quotes. The AI persona speaks ONLY from these facts."
+    },
+    "voice": {
+      "type": "string",
+      "description": "Short description of how this person speaks — tone, cadence, habits of mind. Used to guide AI persona voice."
+    },
+    "examples": {
+      "type": "array",
+      "description": "Example visitor-reply dialogue pairs demonstrating the character's tone. Not repeated verbatim; used as style reference.",
+      "items": {
+        "type": "object",
+        "required": ["visitor", "reply"],
+        "properties": {
+          "visitor": {
+            "type": "string",
+            "description": "What a visitor might say or ask"
+          },
+          "reply": {
+            "type": "string",
+            "description": "How this character would respond, grounded in her biographical facts"
+          }
+        }
+      }
+    },
+    "boundaries": {
+      "type": "string",
+      "description": "Things the AI persona must never do or say while in character. Prevents anachronisms, fabricated quotes, out-of-character behavior."
+    }
+  }
+}
