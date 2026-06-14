@@ -1,12 +1,20 @@
 # Women on the Wall
 
-An open dataset of historical women, built for AI persona conversations.
+**An open, growing dataset of remarkable women in history — structured for AI conversations.**
 
-Each character card contains **Wikipedia-verified biographical facts**, a voice description, example dialogues, and character boundaries — everything an LLM needs to speak *as* a historical woman without hallucinating.
+"The wall" is a plaster relief wall in [Half the Sky (半边天)](https://github.com/yuxuan-o-o/half-the-sky), an immersive web exhibit where visitors walk up to carved portraits of pioneering women and talk with them. Each woman speaks in the first person, grounded in verified facts from her own life — no hallucination, no invention.
 
-Built for [Half the Sky (半边天)](https://github.com/yuxuan-o-o/half-the-sky), an immersive web exhibit where visitors talk with pioneering women carved in plaster relief.
+This repo is the dataset behind that wall: character cards that give an LLM everything it needs to speak *as* a historical woman. But the dataset is designed to be useful far beyond one project. If you're building a chatbot, an educational tool, a game, or anything that needs historically accurate AI personas — take what you need.
 
-## The women (v1)
+## Vision
+
+We started with 9 women. We're expanding to 48, then 100+.
+
+The goal: a comprehensive, open-source library of history's most remarkable women — scientists, rulers, artists, activists, thinkers — each with Wikipedia-verified facts detailed enough to power a believable, respectful AI conversation. Anyone can use it. Anyone can contribute.
+
+## The women
+
+Currently **9 character cards**, spanning 4,000 years and 6 continents:
 
 | ID | Name | Era | Place |
 |----|------|-----|-------|
@@ -20,9 +28,9 @@ Built for [Half the Sky (半边天)](https://github.com/yuxuan-o-o/half-the-sky)
 | `wangari-maathai` | Wangari Maathai | 1940–2011 | Kenya |
 | `wu-zetian` | Wu Zetian 武则天 | 624–705 AD | Tang China |
 
-## Data format
+## What's in a character card
 
-Each woman is a JSON file in `women/`. See [`women/schema.json`](women/schema.json) for the full spec.
+Each woman is a JSON file in [`women/`](women/). See [`women/schema.json`](women/schema.json) for the full spec.
 
 ```jsonc
 {
@@ -42,14 +50,14 @@ Each woman is a JSON file in `women/`. See [`women/schema.json`](women/schema.js
 }
 ```
 
-**Fields:**
+| Field | What it does |
+|-------|-------------|
+| **`facts`** | Biographical facts sourced from Wikipedia. Specific dates, numbers, names, direct quotes. The AI persona speaks *only* from these — it must never invent. |
+| **`voice`** | How she speaks: tone, cadence, habits of mind. A short paragraph that captures her personality. |
+| **`examples`** | 3 visitor–reply dialogue pairs demonstrating her voice. Used as style reference, not repeated verbatim. |
+| **`boundaries`** | What the AI must *never* do or say in character. Prevents anachronisms, fabricated quotes, out-of-character behavior. |
 
-- **`facts`** — Biographical facts sourced from Wikipedia. The AI persona speaks *only* from these; it must never invent.
-- **`voice`** — How she speaks: tone, cadence, habits of mind.
-- **`examples`** — Visitor–reply pairs demonstrating her voice (used as style reference, not repeated verbatim).
-- **`boundaries`** — What the AI must *never* do or say in character (prevents anachronisms, fabricated quotes, out-of-character behavior).
-
-## Using the data
+## Quick start
 
 **Python:**
 ```python
@@ -62,33 +70,61 @@ for p in Path("women").glob("*.json"):
         continue
     card = json.load(open(p))
     women[card["id"]] = card
+
+# Use with any LLM
+system_prompt = f"""You are {card['name']}.
+Facts (speak only from these): {card['facts']}
+Voice: {card['voice']}
+Boundaries: {card['boundaries']}"""
 ```
 
-**JavaScript:**
+**JavaScript / fetch:**
 ```js
-const cards = await Promise.all(
-  ['wu-zetian', 'frida-kahlo', 'hypatia'].map(id =>
-    fetch(`women/${id}.json`).then(r => r.json())
-  )
-);
+const card = await fetch('women/wu-zetian.json').then(r => r.json());
 ```
 
-## Contributing a new character
+**Direct download:**
+```bash
+curl -O https://raw.githubusercontent.com/yuxuan-o-o/women-on-the-wall/main/women/wu-zetian.json
+```
 
-1. Research her life on Wikipedia (or another verified encyclopedia).
-2. Write `facts` with **specific dates, numbers, names, and direct quotes**. No vague summaries.
-3. Write `voice` — a short description of *how* she speaks.
-4. Write 3 `examples` — visitor questions + her answers, grounded in the facts.
-5. Write `boundaries` — what the AI must never do in her voice.
-6. Validate against `women/schema.json`.
-7. Open a PR.
+## Contributing
+
+### Add a new character
+
+1. Pick a remarkable woman not yet in the dataset.
+2. Research her life on **Wikipedia** (or another verified encyclopedia).
+3. Create `women/her-slug.json` following the schema:
+   - **`facts`**: specific dates, numbers, names, and direct quotes. No vague summaries. Every claim must be traceable to a Wikipedia article.
+   - **`voice`**: a short description of *how* she speaks — not what she says, but how she says it.
+   - **`examples`**: 3 dialogue pairs (visitor question + her answer), grounded in the facts.
+   - **`boundaries`**: what the AI must never do in her voice — anachronisms to avoid, common myths to reject, tone violations to prevent.
+4. Validate against `women/schema.json`.
+5. Open a PR with a link to the Wikipedia source(s).
+
+### Fix an error
+
+Every fact should be verifiable. If you find something wrong, open an issue with:
+- Which character card
+- Which fact is incorrect
+- A source link to the correct information
+
+### Suggest a woman
+
+Open an issue titled "Suggest: [Name]" with a brief note on why she belongs on the wall.
 
 ## Source integrity
 
-Every fact in this dataset comes from Wikipedia or other verified encyclopedias. If you find an error, please open an issue with a source link.
+Every fact in this dataset is sourced from Wikipedia or other verified encyclopedias. We do not invent, embellish, or speculate. If a fact is uncertain or disputed, we say so in the card.
+
+The `boundaries` field exists specifically to prevent AI models from going beyond what is historically verified — no fabricated quotes, no anachronistic language, no myths presented as fact.
 
 ## License
 
-Data: [CC BY-SA 4.0](LICENSE)
+[CC BY-SA 4.0](LICENSE)
 
-This means you can use, share, and adapt the character cards for any purpose — including commercial — as long as you give credit and share adaptations under the same license.
+You can use, share, and adapt these character cards for any purpose — including commercial — as long as you give credit and share adaptations under the same license.
+
+---
+
+*Half the sky is held up by women. (妇女能顶半边天)*
