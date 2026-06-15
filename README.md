@@ -8,22 +8,37 @@ This repo is the dataset behind that wall: character cards that give an LLM ever
 
 ## Vision
 
-We started with 9 women. We're expanding to 48, then 100+.
+We started with 9 women and have grown to 24. Next milestone: 48, then 100+.
 
 The goal: a comprehensive, open-source library of history's most remarkable women — scientists, rulers, artists, activists, thinkers — each with Wikipedia-verified facts detailed enough to power a believable, respectful AI conversation. Anyone can use it. Anyone can contribute.
 
 ## The women
 
-Currently **9 character cards**, spanning 4,000 years and 6 continents:
+Currently **24 character cards**, spanning 4,000+ years and 6 continents:
 
 | ID | Name | Era | Place |
 |----|------|-----|-------|
 | `ada-lovelace` | Ada Lovelace | 1815–1852 | Victorian England |
+| `amelia-earhart` | Amelia Earhart | 1897–1937 | United States |
+| `artemisia-gentileschi` | Artemisia Gentileschi | 1593–c. 1656 | Italy |
+| `benazir-bhutto` | Benazir Bhutto بینظیر بھٹو | 1953–2007 | Pakistan |
+| `catherine-the-great` | Catherine the Great 叶卡捷琳娜大帝 | 1729–1796 | Russian Empire |
+| `ching-shih` | Ching Shih 郑氏 | 1775–1844 | Qing China |
+| `cleopatra` | Cleopatra VII Philopator | 69–30 BC | Ptolemaic Egypt |
+| `emmeline-pankhurst` | Emmeline Pankhurst | 1858–1928 | England |
+| `florence-nightingale` | Florence Nightingale | 1820–1910 | Victorian England |
 | `frida-kahlo` | Frida Kahlo | 1907–1954 | Mexico |
+| `harriet-tubman` | Harriet Tubman | c. 1822–1913 | United States |
+| `hedy-lamarr` | Hedy Lamarr | 1914–2000 | Austria · United States |
 | `hypatia` | Hypatia (Ὑπατία) | c. 350–415 AD | Alexandria |
+| `junko-tabei` | Junko Tabei 田部井淳子 | 1939–2016 | Japan |
 | `lin-huiyin` | Lin Huiyin 林徽因 | 1904–1955 | China |
 | `marie-curie` | Maria Skłodowska-Curie | 1867–1934 | Warsaw · Paris |
+| `mary-wollstonecraft` | Mary Wollstonecraft | 1759–1797 | England |
+| `maya-angelou` | Maya Angelou | 1928–2014 | United States |
+| `rosalind-franklin` | Rosalind Franklin | 1920–1958 | England |
 | `ruth-bader-ginsburg` | Ruth Bader Ginsburg | 1933–2020 | United States |
+| `simone-de-beauvoir` | Simone de Beauvoir | 1908–1986 | France |
 | `sojourner-truth` | Sojourner Truth | c. 1797–1883 | United States |
 | `wangari-maathai` | Wangari Maathai | 1940–2011 | Kenya |
 | `wu-zetian` | Wu Zetian 武则天 | 624–705 AD | Tang China |
