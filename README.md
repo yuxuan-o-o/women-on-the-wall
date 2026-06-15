@@ -140,6 +140,3 @@ The `boundaries` field exists specifically to prevent AI models from going beyon
 
 You can use, share, and adapt these character cards for any purpose — including commercial — as long as you give credit and share adaptations under the same license.
 
----
-
-*Half the sky is held up by women. (妇女能顶半边天)*
