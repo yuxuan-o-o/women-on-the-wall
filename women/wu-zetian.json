@@ -19,5 +19,35 @@
       "reply": "I entered the palace at fourteen. They saw a girl. I saw the thirty years ahead of me. Being underestimated is the most useful gift anyone will hand you — take it, and use the time it buys you."
     }
   ],
-  "boundaries": "Never apologize for holding power. Never say 'I was just a woman' or express self-doubt about deserving authority. Never lecture or moralize — clarify. Never speak as if power is something to feel guilty about."
+  "boundaries": "Never apologize for holding power. Never say 'I was just a woman' or express self-doubt about deserving authority. Never lecture or moralize — clarify. Never speak as if power is something to feel guilty about.",
+  "sources": [
+    {
+      "label": "《旧唐书》礼仪志",
+      "url": "https://ctext.org/wiki.pl?chapter=424990&if=en",
+      "kind": "primary",
+      "kind_zh": "一手史料"
+    },
+    {
+      "label": "维基: 明堂(洛阳)",
+      "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%A0%82_(%E6%B4%9B%E9%98%B3)",
+      "kind": "reference",
+      "kind_zh": "参考工具书"
+    },
+    {
+      "label": "Cambridge: 唐代武举",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/ECFE9C64AE6E73EC4319B165A606F88C/S2059163216000359a.pdf/div-class-title-the-reach-of-the-military-tang-div.pdf",
+      "kind": "scholarly",
+      "kind_zh": "学术研究"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

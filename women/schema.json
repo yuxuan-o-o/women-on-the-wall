@@ -1,9 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Half the Sky — Character Card",
-  "description": "A historical woman on the wall of Half the Sky (半边天). Each card contains Wikipedia-verified biographical facts, voice description, example dialogues, and character boundaries for AI persona use.",
+  "description": "A historical woman on the wall of Half the Sky (半边天). Each card contains Wikipedia-verified biographical facts, voice description, example dialogues, and character boundaries for AI persona use. Provenance fields (`sources`, `fact_check`) are bilingual: English is canonical, `*_zh` carries the Chinese. / 溯源字段为中英双语，英文为准，`*_zh` 为中文。",
   "type": "object",
-  "required": ["id", "name", "years", "place", "facts", "voice"],
+  "required": [
+    "id",
+    "name",
+    "years",
+    "place",
+    "facts",
+    "voice",
+    "sources"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -24,7 +32,7 @@
     },
     "facts": {
       "type": "string",
-      "description": "Biographical facts sourced from Wikipedia or other verified encyclopedias. Specific dates, numbers, names, and direct quotes. The AI persona speaks ONLY from these facts."
+      "description": "Biographical facts, each checkable against an entry in `sources`. Specific dates, numbers, names and direct quotes. Team achievements are attributed to the team. Contested claims keep their hedges. The AI persona speaks ONLY from these facts."
     },
     "voice": {
       "type": "string",
@@ -35,7 +43,10 @@
       "description": "Example visitor-reply dialogue pairs demonstrating the character's tone. Not repeated verbatim; used as style reference.",
       "items": {
         "type": "object",
-        "required": ["visitor", "reply"],
+        "required": [
+          "visitor",
+          "reply"
+        ],
         "properties": {
           "visitor": {
             "type": "string",
@@ -51,6 +62,103 @@
     "boundaries": {
       "type": "string",
       "description": "Things the AI persona must never do or say while in character. Prevents anachronisms, fabricated quotes, out-of-character behavior."
+    },
+    "sources": {
+      "type": "array",
+      "description": "Where the facts in this card were checked. Prefer primary documents and official archives, then universities, museums, courts, prize bodies and learned societies, then peer-reviewed work, then reference works and reporting.",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "url",
+          "kind"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "description": "Short human-readable name of the source"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Direct link. All links are HTTP-checked before being added."
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "primary",
+              "official",
+              "archive",
+              "institution",
+              "scholarly",
+              "reference",
+              "press"
+            ],
+            "description": "Weight of the source, strongest first."
+          },
+          "note": {
+            "type": "string",
+            "description": "Caveats, e.g. the host blocks automated requests"
+          },
+          "kind_zh": {
+            "type": "string",
+            "description": "Chinese label for `kind` / 来源类型的中文标签"
+          },
+          "note_zh": {
+            "type": "string",
+            "description": "Chinese version of `note` / note 的中文版"
+          }
+        }
+      }
+    },
+    "fact_check": {
+      "type": "object",
+      "description": "Provenance of the most recent review of this card.",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "ISO date of the review"
+        },
+        "rounds": {
+          "type": "integer",
+          "description": "How many independent review passes the card has had"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "corrections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What was factually wrong before this review"
+        },
+        "additions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What had been omitted before this review"
+        },
+        "summary_zh": {
+          "type": "string",
+          "description": "Chinese version of `summary` / summary 的中文版"
+        },
+        "corrections_zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Chinese version of `corrections` / corrections 的中文版"
+        },
+        "additions_zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Chinese version of `additions` / additions 的中文版"
+        }
+      }
     }
   }
 }

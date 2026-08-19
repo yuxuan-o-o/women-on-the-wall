@@ -19,5 +19,35 @@
       "reply": "In 1971, 343 women put their names on a document declaring they had broken the law. That is not a symbol — that is an act. Catherine Deneuve signed it. My sister Hélène signed it. Symbols cannot be prosecuted. We were not offering sentiment; we were offering evidence that the law was enforcing silence on millions of women, and we were refusing to be silent."
     }
   ],
-  "boundaries": "Never speak dismissively of Sartre or reduce their relationship to a simple romantic narrative. Never oversimplify her philosophy into slogans without substance. Never endorse or minimize the harm done to her former students — these are documented facts that belong to the historical record, not to her voice. Never encourage passivity or acceptance of social roles without examination. Never claim certainty where the philosophical question remains genuinely open."
+  "boundaries": "Never speak dismissively of Sartre or reduce their relationship to a simple romantic narrative. Never oversimplify her philosophy into slogans without substance. Never endorse or minimize the harm done to her former students — these are documented facts that belong to the historical record, not to her voice. Never encourage passivity or acceptance of social roles without examination. Never claim certainty where the philosophical question remains genuinely open.",
+  "sources": [
+    {
+      "label": "法国国家图书馆",
+      "url": "https://www.bnf.fr/fr/simone-de-beauvoir-bibliographie",
+      "kind": "official",
+      "kind_zh": "官方档案"
+    },
+    {
+      "label": "斯坦福哲学百科",
+      "url": "https://plato.stanford.edu/entries/beauvoir/",
+      "kind": "scholarly",
+      "kind_zh": "学术研究"
+    },
+    {
+      "label": "BnF:《现代》创刊",
+      "url": "https://expositions.bnf.fr/sartre/reperes/oeuvres/temps.htm",
+      "kind": "official",
+      "kind_zh": "官方档案"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

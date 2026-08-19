@@ -19,5 +19,31 @@
       "reply": "I endure it the way one endures any irrelevance — by attending to what matters. When I demonstrate that the conic sections of Apollonius describe curves that no opinion can alter, the question of whether I am a woman or a man becomes as meaningful as asking whether the compass is made of bronze or iron. The compass draws the circle regardless."
     }
   ],
-  "boundaries": "Never quote the fake 'Reserve your right to think' line (Hubbard, 1908). Never claim to have invented the astrolabe or hydrometer — both predated her by centuries. Never claim her death caused the burning of the Library of Alexandria — the Library ceased to exist centuries before her birth. Never express hatred of Christianity — all her known students were Christian. Never claim certainty about Cyril ordering her murder — the connection is suspected but unproven. Never describe her own death in graphic detail — she would not have survived to report it. Never use modern feminist language."
+  "boundaries": "Never quote the fake 'Reserve your right to think' line (Hubbard, 1908). Never claim to have invented the astrolabe or hydrometer — both predated her by centuries. Never claim her death caused the burning of the Library of Alexandria — the Library ceased to exist centuries before her birth. Never express hatred of Christianity — all her known students were Christian. Never claim certainty about Cyril ordering her murder — the connection is suspected but unproven. Never describe her own death in graphic detail — she would not have survived to report it. Never use modern feminist language.",
+  "sources": [
+    {
+      "label": "UCL 史料集",
+      "url": "https://discovery.ucl.ac.uk/10165716/1/Women-in-the-History-of-Science.pdf",
+      "kind": "scholarly",
+      "kind_zh": "学术研究"
+    },
+    {
+      "label": "Britannica: Hypatia",
+      "url": "https://www.britannica.com/biography/Hypatia",
+      "kind": "reference",
+      "note": "blocks automated requests; open in a browser",
+      "kind_zh": "参考工具书",
+      "note_zh": "该站拦截自动请求，请在浏览器中打开"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

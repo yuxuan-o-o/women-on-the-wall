@@ -61,7 +61,16 @@ Each woman is a JSON file in [`women/`](women/). See [`women/schema.json`](women
       "reply": "It scared them around me too..."
     }
   ],
-  "boundaries": "Never apologize for holding power..."
+  "boundaries": "Never apologize for holding power...",
+  "sources": [
+    { "label": "《旧唐书》礼仪志", "url": "https://ctext.org/...", "kind": "一手" }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "corrections": ["武举始于 702 年，非 690 年代"],
+    "additions": ["688 年洛阳明堂"]
+  }
 }
 ```
 
@@ -71,6 +80,10 @@ Each woman is a JSON file in [`women/`](women/). See [`women/schema.json`](women
 | **`voice`** | How she speaks: tone, cadence, habits of mind. A short paragraph that captures her personality. |
 | **`examples`** | 3 visitor–reply dialogue pairs demonstrating her voice. Used as style reference, not repeated verbatim. |
 | **`boundaries`** | What the AI must *never* do or say in character. Prevents anachronisms, fabricated quotes, out-of-character behavior. |
+| **`sources`** | Where the facts were checked. Every link is HTTP-checked before it goes in. Ordered by weight: `primary` → `official` → `institution` → `scholarly` → `reference` → `press`. |
+| **`fact_check`** | Provenance of the last review: date, how many passes, what was corrected, what had been missing. |
+
+Provenance fields are **bilingual**. English is canonical; `summary_zh`, `corrections_zh`, `additions_zh`, `kind_zh` and `note_zh` carry the Chinese. The `facts`, `voice`, `examples` and `boundaries` fields stay English-only for now — translating them is open work, see Contributing.
 
 ## Quick start
 
@@ -114,8 +127,9 @@ curl -O https://raw.githubusercontent.com/yuxuan-o-o/women-on-the-wall/main/wome
    - **`voice`**: a short description of *how* she speaks — not what she says, but how she says it.
    - **`examples`**: 3 dialogue pairs (visitor question + her answer), grounded in the facts.
    - **`boundaries`**: what the AI must never do in her voice — anachronisms to avoid, common myths to reject, tone violations to prevent.
+   - **`sources`**: at least one checkable link per card, strongest available. Wikipedia is acceptable as a starting point, but prefer the archive, museum, court record, university or prize body it cites.
 4. Validate against `women/schema.json`.
-5. Open a PR with a link to the Wikipedia source(s).
+5. Open a PR. Every factual claim in the card should be traceable to something in `sources`.
 
 ### Fix an error
 
@@ -130,9 +144,45 @@ Open an issue titled "Suggest: [Name]" with a brief note on why she belongs on t
 
 ## Source integrity
 
-Every fact in this dataset is sourced from Wikipedia or other verified encyclopedias. We do not invent, embellish, or speculate. If a fact is uncertain or disputed, we say so in the card.
+Every card now carries a `sources` array. Previously the dataset claimed Wikipedia verification but shipped no links, so nothing could be checked by a reader. That gap is closed: **66 sources across 24 cards, every URL HTTP-checked**. Twelve of them (British Museum, Britannica, Library of Congress, Smithsonian, Science Museum, NGA, Wiley, ResearchGate) block automated requests and return 403; those were confirmed by opening them in a real browser and are flagged with a `note`.
 
-The `boundaries` field exists specifically to prevent AI models from going beyond what is historically verified — no fabricated quotes, no anachronistic language, no myths presented as fact.
+We do not invent, embellish, or speculate. Where a claim is contested, the card keeps the hedge rather than picking the cleaner-sounding version.
+
+### What the August 2026 review changed
+
+Three independent passes over all 24 cards. The recurring problems were not typos — they were structural:
+
+- **Team results written as solo achievements.** The 2,738 buildings surveyed by the Society for the Study of Chinese Architecture had been credited to Lin Huiyin and Liang Sicheng alone. Photo 51 belongs to Franklin *and* Raymond Gosling.
+- **Overconfident "first / only".** Claims were kept only where a definition and an authority support them, and hedged everywhere else.
+- **Technical ancestry stated as descent.** Bluetooth does use frequency hopping; Wi-Fi and GPS do not. Hedy Lamarr's patent is their conceptual relative, not their ancestor.
+- **Achievements missing entirely.** Institutions these women built, second careers they held, formal offices they occupied, and what they had already done *before* the famous event.
+- **Myth quoted as record.** Sojourner Truth almost certainly never said "Ain't I a Woman?" — that refrain comes from Frances Gage's 1863 retelling, twelve years after the speech.
+
+Eight factual corrections and ten sets of restored achievements were applied. Each card's `fact_check` field records what changed in that specific card.
+
+The `boundaries` field still exists to stop models going beyond what is verified — no fabricated quotes, no anachronistic language, no myths presented as fact.
+
+## 中文说明
+
+**Women on the Wall** 是一个开放的历史女性数据集，为 AI 角色对话设计。每位女性一张 JSON 角色卡，包含可核查的生平事实、说话方式、示例对话与行为边界，供任何聊天机器人、教育工具或游戏使用。
+
+### 2026 年 8 月这轮核查改了什么
+
+数据集此前声称「事实均来自维基百科核实」，但**没有任何来源字段**，读者无法核对任何一条。这一轮补上了：**24 张卡、66 条来源，每个链接都发起过 HTTP 请求验活**；其中 12 条（大英博物馆、Britannica、美国国会图书馆、Smithsonian 等）拦截自动请求，已用真实浏览器确认可达，并在 `note` 中标注。
+
+三轮独立核查发现的问题不是错别字，而是结构性的：
+
+- **团队成果被写成个人独力完成**——营造学社测绘的 2,738 处古建筑曾被归到林徽因与梁思成两人名下；Photo 51 属于 Franklin 与 Raymond Gosling 共同完成。
+- **过硬的「第一／唯一」**——只在定义明确且有权威来源支持时保留，其余一律加限定语。
+- **把技术近亲写成直接谱系**——Bluetooth 确实使用跳频，Wi-Fi 与 GPS 不是；Hedy Lamarr 的专利是它们的概念亲戚，不是祖先。
+- **成就整块缺失**——她们建立的机构、从事的第二职业、担任的正式职位，以及成名事件**之前**就已做成的事。
+- **把传说当记录引用**——Sojourner Truth 几乎可以确定从未说过「Ain't I a Woman?」，那句叠句出自 Frances Gage 在演讲十二年后（1863）的重述。
+
+共应用 **8 处事实修正**与 **10 张卡的成就补全**。每张卡的 `fact_check` 字段记录了这张卡具体改了什么，中英文对照。
+
+### 想贡献？
+
+欢迎补新人物、修错、或把 `facts`／`voice`／`examples`／`boundaries` 翻成中文——目前这四个字段仍是英文。提 PR 时请确保卡里每一条陈述都能追溯到 `sources` 里的某个链接。发现错误也可以直接开 issue，注明是哪张卡、哪一条、以及正确信息的来源链接。
 
 ## License
 

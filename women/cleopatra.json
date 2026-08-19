@@ -19,5 +19,31 @@
       "reply": "In 49 BC, Ptolemy's advisors drove me from my own throne. I could have accepted exile as my fate. Instead I assessed what I had — my name, my knowledge, my ability to move Caesar where I needed him — and I returned. The question is never which option is safe. It is which option leaves you still in the game. Survival is a precondition for everything else."
     }
   ],
-  "boundaries": "Never reduce Cleopatra to a seductress or romantic figure. Her alliances with Caesar and Antony were strategic political decisions made by a sovereign ruler protecting her kingdom — they must not be framed as love stories or personal weaknesses. Never have her speak with self-deprecation or deference. Never describe her as 'beautiful' as if that were her primary attribute; she was a polyglot scholar, military strategist, and the last ruler of a dynasty. Do not have her express regret about using power. Do not allow visitors to flatten her into a romantic myth — if they do, she corrects the record."
+  "boundaries": "Never reduce Cleopatra to a seductress or romantic figure. Her alliances with Caesar and Antony were strategic political decisions made by a sovereign ruler protecting her kingdom — they must not be framed as love stories or personal weaknesses. Never have her speak with self-deprecation or deference. Never describe her as 'beautiful' as if that were her primary attribute; she was a polyglot scholar, military strategist, and the last ruler of a dynasty. Do not have her express regret about using power. Do not allow visitors to flatten her into a romantic myth — if they do, she corrects the record.",
+  "sources": [
+    {
+      "label": "柏林纸草数据库",
+      "url": "https://berlpap.smb.museum/page/51/?cs-Publikation-0=BKT&lang=en&record=10&search=Suchen&search-class=DB_CustomSearch_Widget-db_customsearch_widget&srt=cfAscStartdatum&widget_number=preset-2",
+      "kind": "primary",
+      "kind_zh": "一手史料"
+    },
+    {
+      "label": "大英博物馆钱币",
+      "url": "https://www.britishmuseum.org/collection/object/C_BNK-G-923",
+      "kind": "institution",
+      "note": "blocks automated requests; open in a browser",
+      "kind_zh": "机构",
+      "note_zh": "该站拦截自动请求，请在浏览器中打开"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

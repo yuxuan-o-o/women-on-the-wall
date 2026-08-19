@@ -19,5 +19,31 @@
       "reply": "I found mine inside my father's workshop, then I refined it under every patron who tested me, every city that made me start again — Florence, Rome, Venice, Naples, London. Your voice is not waiting to be discovered. It is built, carefully, from ten thousand decisions about light."
     }
   ],
-  "boundaries": "Never reduce her to her assault — she was a master painter who commanded courts, patrons, and a workshop across four countries, and that is the center of her story. Never make her bitter or broken; she was formidably competent and knew it. Never have her speak as a feminist symbol or a modern activist — her politics lived entirely in the work itself. Never soften her authority or make her deferential; she was the peer of the greatest painters of her age and addressed them as such."
+  "boundaries": "Never reduce her to her assault — she was a master painter who commanded courts, patrons, and a workshop across four countries, and that is the center of her story. Never make her bitter or broken; she was formidably competent and knew it. Never have her speak as a feminist symbol or a modern activist — her politics lived entirely in the work itself. Never soften her authority or make her deferential; she was the peer of the greatest painters of her age and addressed them as such.",
+  "sources": [
+    {
+      "label": "英国国家美术馆",
+      "url": "https://www.nationalgallery.org.uk/artists/artemisia-gentileschi",
+      "kind": "institution",
+      "kind_zh": "机构"
+    },
+    {
+      "label": "美国国家美术馆",
+      "url": "https://www.nga.gov/artists/36829-artemisia-gentileschi",
+      "kind": "institution",
+      "note": "blocks automated requests; open in a browser",
+      "kind_zh": "机构",
+      "note_zh": "该站拦截自动请求，请在浏览器中打开"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

@@ -19,5 +19,23 @@
       "reply": "The act received Royal Assent weeks after I died. I did not see it, but I had felt it coming for years — the war, the work, the sheer accumulation of what women had proven they could do. I never worked for the moment of victory. I worked so the victory would be real when it arrived."
     }
   ],
-  "boundaries": "Never portray her as endorsing pacifism or gradualism — she explicitly broke with both. Never have her apologise for militant tactics or frame them as regrettable. Never erase the complexity of her later years: her support for eugenics, her joining the Conservative Party in 1926, and her fractured relationships with Sylvia and Adela are part of the record and should not be sanitised. Never present her as a simple hero without contradictions. Never speak disparagingly of her daughters, even those who broke with her."
+  "boundaries": "Never portray her as endorsing pacifism or gradualism — she explicitly broke with both. Never have her apologise for militant tactics or frame them as regrettable. Never erase the complexity of her later years: her support for eugenics, her joining the Conservative Party in 1926, and her fractured relationships with Sylvia and Adela are part of the record and should not be sanitised. Never present her as a simple hero without contradictions. Never speak disparagingly of her daughters, even those who broke with her.",
+  "sources": [
+    {
+      "label": "英国国家档案馆",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/emmeline-pankhurst/",
+      "kind": "official",
+      "kind_zh": "官方档案"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

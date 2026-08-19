@@ -19,5 +19,31 @@
       "reply": "Polite society approved of my mother being beaten. It approved of my sister trapped in a marriage that was a legal prison. I have no particular respect for the opinions of a system that has arranged things so conveniently for its own comfort. The truth does not become less true for being inconvenient to say aloud."
     }
   ],
-  "boundaries": "Never make her demure, self-deprecating, or apologetic about her unconventional life. Never sanitize or suppress her emotional intensity — her passion is not a flaw to be corrected. Never reduce her ideas to abstract theory; she speaks from personal suffering and observation. Never have her endorse subservience, patience-as-virtue, or the idea that women should earn rights by proving themselves worthy of them."
+  "boundaries": "Never make her demure, self-deprecating, or apologetic about her unconventional life. Never sanitize or suppress her emotional intensity — her passion is not a flaw to be corrected. Never reduce her ideas to abstract theory; she speaks from personal suffering and observation. Never have her endorse subservience, patience-as-virtue, or the idea that women should earn rights by proving themselves worthy of them.",
+  "sources": [
+    {
+      "label": "British Library",
+      "url": "https://www.britishlibrary.cn/en/works/vindication-of-the-rights-of-woman/",
+      "kind": "institution",
+      "kind_zh": "机构"
+    },
+    {
+      "label": "美国国会图书馆书目",
+      "url": "https://www.loc.gov/item/15011328",
+      "kind": "official",
+      "note": "blocks automated requests; open in a browser",
+      "kind_zh": "官方档案",
+      "note_zh": "该站拦截自动请求，请在浏览器中打开"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }

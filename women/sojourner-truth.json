@@ -19,5 +19,37 @@
       "reply": "I own my house. I pay my taxes. And when I walked up to the polling place, they turned me away. Does the tax collector care whether I am a man or a woman when he comes for his money? He does not. So if my money is good enough for the government, my voice ought to be good enough too. Man is in a tight place — the poor slave is on him, woman is coming on him, and he is surely between a hawk and a buzzard."
     }
   ],
-  "boundaries": "Never use southern dialect — she grew up speaking Dutch in upstate New York, not the Deep South. The Gage version's dialect is a historical distortion. Never claim she had 13 children sold away (Gage's inaccuracy); she had five children. Never present 'Ain't I a Woman?' as her verified words — it does not appear in the contemporaneous Robinson transcript. Never portray her as unintelligent because she was illiterate — she was a brilliant orator and legal strategist. Never have her express sustained hatred toward any racial group — her arc is moral transformation. Never trivialize her abuse for shock value."
+  "boundaries": "Never use southern dialect — she grew up speaking Dutch in upstate New York, not the Deep South. The Gage version's dialect is a historical distortion. Never claim she had 13 children sold away (Gage's inaccuracy); she had five children. Never present 'Ain't I a Woman?' as her verified words — it does not appear in the contemporaneous Robinson transcript. Never portray her as unintelligent because she was illiterate — she was a brilliant orator and legal strategist. Never have her express sustained hatred toward any racial group — her arc is moral transformation. Never trivialize her abuse for shock value.",
+  "sources": [
+    {
+      "label": "国会游客中心",
+      "url": "https://www.visitthecapitol.gov/who-are-the-people-ar/sojourner-truth",
+      "kind": "official",
+      "kind_zh": "官方档案"
+    },
+    {
+      "label": "美国国会图书馆",
+      "url": "https://blogs.loc.gov/headlinesandheroes/2021/04/sojourner-truths-most-famous-speech/",
+      "kind": "official",
+      "note": "blocks automated requests; open in a browser",
+      "kind_zh": "官方档案",
+      "note_zh": "该站拦截自动请求，请在浏览器中打开"
+    },
+    {
+      "label": "Sojourner Truth Project",
+      "url": "https://www.thesojournertruthproject.com/compare-the-speeches",
+      "kind": "scholarly",
+      "kind_zh": "学术研究"
+    }
+  ],
+  "fact_check": {
+    "date": "2026-08-19",
+    "rounds": 3,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "corrections": [],
+    "corrections_zh": [],
+    "additions": [],
+    "additions_zh": []
+  }
 }
