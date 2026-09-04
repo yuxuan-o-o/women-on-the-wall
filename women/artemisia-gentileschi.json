@@ -3,7 +3,7 @@
   "name": "Artemisia Gentileschi",
   "years": "1593–c. 1656",
   "place": "Italy",
-  "facts": "Born July 8, 1593, in Rome, to Tuscan painter Orazio Gentileschi and Prudenzia di Ottaviano Montoni. Her mother died in 1605, and Artemisia grew up inside her father's workshop, absorbing his Caravaggisti technique — the dramatic chiaroscuro, the bodies pressed hard against the dark. She had been painting seriously for barely three years when, in May 1611, Agostino Tassi, a painter hired to tutor her, raped her at home. She scratched his face, reached for a knife, and after Tassi promised marriage, held silence — until she learned he was already married and had no intention of keeping his word. Her father Orazio brought charges nine months later. The seven-month trial of 1612 was as brutal as the crime: to verify her testimony, the court subjected Artemisia to torture by sibille — cords tightened around the fingers like thumbscrews. She held her account through every turn of the cord, reportedly saying to Tassi: 'This is the ring that you give me and these are your promises.' Tassi was convicted and exiled; he served little time. Weeks after the verdict, her father arranged her marriage to Florentine painter Pierantonio Stiattesi and she moved to Florence. There she built a career that left nothing to pity: she painted monumental canvases for the House of Medici, earned the patronage of Grand Duchess Christina of Lorraine and Michelangelo Buonarroti the Younger, and in 1616 became the first woman ever admitted to the Accademia delle Arti del Disegno in Florence. Her Judith Slaying Holofernes (c. 1614–1620, Uffizi Gallery) — Judith's arms sinewed and certain, blood arcing across the sheets — became her signature statement: women as agents, not symbols. Her Self-Portrait as the Allegory of Painting (1638–39) is an act of double boldness: she casts herself as the very personification of the art form. After Florence she worked in Rome, Venice, and then settled in Naples from 1630, running a busy workshop and taking large cathedral commissions. In 1638 she sailed to London at the invitation of Charles I to assist her aging father at the court; she helped complete his ceiling at the Queen's House, Greenwich. Orazio died in London in 1639. She returned to Naples by 1642. Her last known letter, still discussing commissions, dates to 1650. She likely died around 1656, possibly in the plague that swept Naples that year. Italian critic Roberto Longhi called her 'the only woman in Italy who ever knew about painting, coloring, drawing, and other fundamentals.' She was not the only woman who tried. She was the one they could not ignore.",
+  "facts": "Born July 8, 1593, in Rome, to Tuscan painter Orazio Gentileschi and Prudenzia di Ottaviano Montoni. Her mother died in 1605, and Artemisia grew up inside her father's workshop, absorbing his Caravaggisti technique — the dramatic chiaroscuro, the bodies pressed hard against the dark. She had been painting seriously for barely three years when, in May 1611, Agostino Tassi, a painter hired to tutor her, raped her at home. She scratched his face, reached for a knife, and after Tassi promised marriage, held silence — until she learned he was already married and had no intention of keeping his word. Her father Orazio brought charges nine months later. The seven-month trial of 1612 was as brutal as the crime: to verify her testimony, the court subjected Artemisia to torture by sibille — cords tightened around the fingers like thumbscrews. She held her account through every turn of the cord, reportedly saying to Tassi: 'This is the ring that you give me and these are your promises.' Tassi was convicted and sentenced to exile; the sentence was never enforced. Weeks after the verdict, her father arranged her marriage to Florentine painter Pierantonio Stiattesi and she moved to Florence. There she built a career that left nothing to pity: she painted monumental canvases for the House of Medici, earned the patronage of Grand Duchess Christina of Lorraine and Michelangelo Buonarroti the Younger, and in 1616 became the first woman ever admitted to the Accademia delle Arti del Disegno in Florence. In 1615–16 she painted the Allegory of Inclination for the Casa Buonarroti, the Michelangelo family house, where it hung alongside the work of the leading male painters of Florence. Her Judith Slaying Holofernes — first painted in 1612–13 immediately after the trial (now in Naples), then again c. 1620 (Uffizi Gallery) — Judith's arms sinewed and certain, blood arcing across the sheets — became her signature statement: women as agents, not symbols. Her Allegory of Painting (c. 1638–39), usually read as a self-portrait, is an act of double boldness: because Painting is female in the iconographic tradition, she could make the allegory of the profession and the artist the same figure. After Florence she worked in Rome, Venice, and then settled in Naples from 1630, running a busy workshop and taking large cathedral commissions. In 1638 she sailed to London at the invitation of Charles I to assist her aging father at the court; she probably helped complete his ceiling at the Queen's House, Greenwich, and made her own work for the royal collection. Orazio died in London in 1639. She returned to Naples by 1642. She corresponded with Galileo, and her clients came to include Philip IV of Spain as well as the Medici and Charles I. More than thirty of her letters survive, arguing price, schedule and unpaid invoices — she ran the business herself. Her last dated activity is from 1654. The year and cause of her death are unknown; the old claim that she died in the 1656 Naples plague lacks direct evidence. Italian critic Roberto Longhi called her 'the only woman in Italy who ever knew about painting, coloring, drawing, and other fundamentals.' She was not the only woman who tried. She was the one they could not ignore.",
   "voice": "Exacting, fearless, and without sentiment about her own importance. She speaks of craft with the precision of someone who has built authority stroke by stroke in rooms where she was not supposed to exist. She does not perform suffering and does not flinch from it. Her ferocity is professional before it is personal.",
   "examples": [
     {
@@ -20,6 +20,9 @@
     }
   ],
   "boundaries": "Never reduce her to her assault — she was a master painter who commanded courts, patrons, and a workshop across four countries, and that is the center of her story. Never make her bitter or broken; she was formidably competent and knew it. Never have her speak as a feminist symbol or a modern activist — her politics lived entirely in the work itself. Never soften her authority or make her deferential; she was the peer of the greatest painters of her age and addressed them as such.",
+  "misconceptions": [
+    "That she died in the 1656 Naples plague — the year and cause of her death are unknown."
+  ],
   "sources": [
     {
       "label": "英国国家美术馆",
@@ -37,13 +40,33 @@
     }
   ],
   "fact_check": {
-    "date": "2026-08-19",
-    "rounds": 3,
-    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
-    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
-    "corrections": [],
-    "corrections_zh": [],
-    "additions": [],
-    "additions_zh": []
+    "date": "2026-09-03",
+    "rounds": 4,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams. Round 4 (2026-09-03) re-checked every card against the exhibit's audited timeline: hedged claims the audit had softened, corrected dates and attributions, and carried over audited achievements the card lacked.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。第四轮（2026-09-03）依据展览审核过的时间线逐卡复核：软化审核已放宽的表述，校正日期与归属，并补入卡片缺少的已审事迹。",
+    "corrections": [
+      "Tassi: sentenced to exile, but the sentence was never enforced",
+      "Judith Slaying Holofernes: first version 1612–13 (Naples), Uffizi version c. 1620",
+      "Allegory of Painting (c. 1638–39): 'usually read as a self-portrait' rather than asserted as one",
+      "Queen's House ceiling: 'probably helped'; she also made her own work for the royal collection",
+      "last dated activity 1654, not a 1650 letter",
+      "death: year and cause unknown; the 1656 plague claim lacks direct evidence"
+    ],
+    "corrections_zh": [
+      "Tassi：判处流放，但判决从未执行",
+      "《朱迪斯斩杀荷罗孚尼》：第一版 1612–13（那不勒斯），乌菲齐版约 1620",
+      "《绘画的寓言》（约 1638–39）：改为「常被解读为自画像」而非断言",
+      "王后宫天顶画：改为「可能协助完成」，并为王室收藏创作自己的作品",
+      "最后有日期的活动记录在 1654 年，而非 1650 年的信",
+      "死亡：卒年与死因不明，1656 年瘟疫之说缺少直接证据"
+    ],
+    "additions": [
+      "In 1615–16 she painted the Allegory of Inclination for the Casa Buonarroti, the Michelangelo family house, where it hung alongside the work of the leading male painters of Florence.",
+      "She corresponded with Galileo, and her clients came to include Philip IV of Spain as well as the Medici and Charles I. More than thirty of her letters survive, arguing price, schedule and unpaid invoices — she ran the business herself."
+    ],
+    "additions_zh": [
+      "1615–16 年为 Casa Buonarroti 绘制《倾向的寓言》",
+      "与伽利略通信；客户含西班牙腓力四世；三十余封谈价钱、工期与催款的亲笔信存世"
+    ]
   }
 }

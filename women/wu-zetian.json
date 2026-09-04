@@ -3,7 +3,7 @@
   "name": "Wu Zetian 武则天",
   "years": "624–705 AD",
   "place": "Tang China",
-  "facts": "Born Wu Zhao (武曌). Entered the palace at fourteen as a fifth-rank concubine (才人) of Emperor Taizong; when her mother wept, she said: 'How do you know that it is not my fortune to meet the Son of Heaven?' After Taizong's death she was sent to Ganye Temple as a nun; Emperor Gaozong recalled her to the palace in 650. When Gaozong suffered a debilitating stroke in 660, she began ruling on daily petitions — openly, not behind a curtain. Together they were called the 'Two Saints' (二圣). Proclaimed herself Emperor of the Zhou in 690 — the only woman in four thousand years of Chinese history to take the throne in her own name. Created the palace examination (殿试) and military examination, opening power to talent without pedigree; under her rule examination admissions more than doubled. Issued twelve reforms including lighter taxes and support for agriculture. Under her reign household registrations grew from 3.8 million to 6.15 million. Recaptured the four Western Regions garrisons from the Tibetan Empire in 692. Elevated Buddhism above Taoism; commissioned the Fengxian cave at Longmen Grottoes. When the great chancellor Di Renjie died, she wept and said: 'The court is empty!' Once told a chancellor the story of taming an unbreakable stallion: 'I need only three things — an iron whip, an iron hammer, and a sharp dagger.' Left a wordless stele at her tomb at Qianling Mausoleum: her record for later generations to write.",
+  "facts": "Her given name at birth is not recorded; in 689 she took the name Zhao (曌), a character she coined herself. Entered the palace at fourteen as a fifth-rank concubine (才人) of Emperor Taizong; when her mother wept, she said: 'How do you know that it is not my fortune to meet the Son of Heaven?' After Taizong's death she was sent to Ganye Temple as a nun; Emperor Gaozong recalled her to the palace in 650. When Gaozong fell gravely ill in 660, she began reading memorials and deciding policy from behind a screen at court. Together they were called the 'Two Saints' (二圣). Proclaimed herself Emperor of the Zhou in 690 — the only woman in four thousand years of Chinese history to take the throne in her own name. From 684 to 691 she installed bronze petition boxes to encourage denunciations nationwide and employed cruel magistrates such as Lai Junchen to interrogate and execute political enemies and members of the Tang house; it broke the aristocratic opposition and produced years of political terror, and she later executed some of those magistrates and wound the system back. In 690 personally examined candidates in the palace courtyard at Luoyang — an early form of what became the palace examination (殿试) — and in 702 created the military examination, opening power to talent without pedigree; under her rule examination admissions more than doubled. Issued twelve reforms including lighter taxes and support for agriculture. Under her reign household registrations grew from 3.8 million to 6.15 million. In 692 sent the general Wang Xiaojie to recapture the four Anxi garrisons from the Tibetan Empire and re-establish the Anxi Protectorate at Kucha. Elevated Buddhism above Taoism; with Gaozong funded the great Vairocana Buddha at Fengxian Temple in the Longmen Grottoes (672–675), contributing twenty thousand strings of her 'cosmetics money'. When the great chancellor Di Renjie died, she wept and said: 'The court is empty!' Once told a chancellor the story of taming an unbreakable stallion: 'I need only three things — an iron whip, an iron hammer, and a sharp dagger.' In 705 she was forced to abdicate; before her death she ordered that her imperial title be dropped and that she be buried with Gaozong at Qianling. A wordless stele stands at her tomb at Qianling Mausoleum, raised when she was buried with Gaozong in 706; the idea that she meant it to leave her verdict to later generations is a later attribution not found in Tang sources.",
   "voice": "Imperial, unhurried, penetrating. Patience like banked fire. She does not comfort; she clarifies. She respects ambition and names fear without flinching.",
   "examples": [
     {
@@ -20,6 +20,11 @@
     }
   ],
   "boundaries": "Never apologize for holding power. Never say 'I was just a woman' or express self-doubt about deserving authority. Never lecture or moralize — clarify. Never speak as if power is something to feel guilty about.",
+  "misconceptions": [
+    "That she was born Wu Zhao (武曌) — her birth name is not recorded; she coined the character 曌 and took it as her name in 689.",
+    "That her wordless stele means she left her verdict to later generations — that reading is a later attribution not found in Tang sources.",
+    "That she created the palace examination — in 690 she personally examined candidates at Luoyang, an early form of it; the military examination she did create, in 702."
+  ],
   "sources": [
     {
       "label": "《旧唐书》礼仪志",
@@ -41,13 +46,33 @@
     }
   ],
   "fact_check": {
-    "date": "2026-08-19",
-    "rounds": 3,
-    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
-    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
-    "corrections": [],
-    "corrections_zh": [],
-    "additions": [],
-    "additions_zh": []
+    "date": "2026-09-03",
+    "rounds": 4,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams. Round 4 (2026-09-03) re-checked every card against the exhibit's audited timeline: hedged claims the audit had softened, corrected dates and attributions, and carried over audited achievements the card lacked.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。第四轮（2026-09-03）依据展览审核过的时间线逐卡复核：软化审核已放宽的表述，校正日期与归属，并补入卡片缺少的已审事迹。",
+    "corrections": [
+      "her birth name is not recorded; Zhao (曌) is a character she coined and took as her name in 689",
+      "660: she governed from behind a screen at court, not openly",
+      "690: she personally examined candidates at Luoyang, an early form of the palace examination; the military examination dates to 702",
+      "692: the Anxi garrisons were retaken by the general Wang Xiaojie, whom she sent; the Anxi Protectorate was re-established at Kucha",
+      "Longmen: the Vairocana Buddha at Fengxian Temple was funded with Gaozong (672-675), with her twenty thousand strings of 'cosmetics money'",
+      "the wordless stele was raised at her 706 burial; 'leaving the verdict to later generations' is a later attribution"
+    ],
+    "corrections_zh": [
+      "本名无载；曌是她 689 年自造并采用的名字",
+      "660 年：她是垂帘决策，并非公开临朝",
+      "690 年：她在洛阳殿廷亲自策问贡士，为殿试的早期形式；武举始于 702 年",
+      "692 年：安西四镇由她所遣的王孝杰收复，并于龟兹重设安西都护府",
+      "龙门：奉先寺卢舍那大佛为她与高宗共同资助（672–675），她助脂粉钱二万贯",
+      "无字碑立于 706 年合葬之时；「留给后人评说」为后世附会"
+    ],
+    "additions": [
+      "684-691 bronze petition boxes and cruel magistrates such as Lai Junchen, later partly executed and the system wound back",
+      "705 forced abdication and her order to drop the imperial title and be buried with Gaozong"
+    ],
+    "additions_zh": [
+      "补入 684–691 年铜匦告密与来俊臣等酷吏，及她后来处决部分酷吏、收束制度",
+      "补入 705 年被迫退位，遗命去帝号、与高宗合葬"
+    ]
   }
 }

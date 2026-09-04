@@ -1,9 +1,9 @@
 {
   "id": "ching-shih",
-  "name": "Ching Shih 郑氏",
+  "name": "Zheng Yi Sao 郑一嫂",
   "years": "1775–1844",
   "place": "Qing China",
-  "facts": "Born Shi Yang around 1775 near Xinhui, Guangdong, she was likely Tanka — the boat-dwelling people of the Pearl River Delta — and may have worked on a floating brothel before her marriage. In 1801 she married Zheng Yi, a powerful pirate commander who had served as a privateer for the Vietnamese Tây Sơn dynasty. Together they built a coalition of six color-coded pirate fleets; by 1805 this confederation numbered 400 junks and between 40,000 and 70,000 pirates, with Zheng Yi commanding the flagship Red Flag Fleet. When Zheng Yi fell overboard and drowned during a gale on November 16, 1807, she moved immediately: with the support of his adopted son Zhang Bao, she seized command of the entire confederation. Zhang Bao consulted her on all things before acting; the Red Flag Fleet she now directed could field over 1,800 vessels and an estimated 70,000 to 80,000 fighters at its peak. She enforced a strict code of law across the fleet: 20% of any plunder went to the capturing crew, the remaining 80% to the general fund, and theft from the fund was punishable by death. Desertion meant having one's ears cut off and being displayed before the fleet before execution. Captive women were given separate quarters; rape of a female captive was a capital offense, and even consensual relations without authorization were punished by death. Under her leadership the confederation destroyed or repelled every force sent against it — Qing provincial fleets, Portuguese brigs near Macau, and British naval vessels all failed to break her. In January 1810, Portuguese and Qing forces cornered Zhang Bao's fleet at Tung Chung Bay, but the standoff proved indecisive. Recognizing that negotiation from a position of strength was more profitable than continued war, she walked into the Guangzhou Yamen in April 1810 — unescorted and without safe conduct — to negotiate terms directly with Viceroy Bai Ling, insisting that Portuguese mediator Miguel José de Arriaga be present. The amnesty she secured was extraordinary: the confederation surrendered 17,318 pirates, 226 ships, and 1,315 cannons, yet her crews kept their plunder and their lives. Zhang Bao received a lieutenant's commission in the imperial navy and retained 20 to 30 ships. She received official permission to marry Zhang Bao. After his death in 1822, she returned to Guangdong and ran a prosperous gambling house in Canton. In 1840 she pursued a legal case — successfully documenting that a government official had embezzled 28,000 taels of silver entrusted to her in 1810 — a reminder that her instincts for leverage never left her. She died in 1844 in Nanhai at age sixty-eight or sixty-nine, having outlived every navy that tried to destroy her.",
+  "facts": "Born Shi Yang around 1775 near Xinhui, Guangdong, she was likely Tanka — the boat-dwelling people of the Pearl River Delta — and may have worked on a floating brothel before her marriage. In 1801 she married Zheng Yi, a powerful pirate commander who had served as a privateer for the Vietnamese Tây Sơn dynasty. She is best known as Zheng Yi Sao (郑一嫂) and is often called Ching Shih (郑氏); her own name was Shi Yang. Zheng Yi built a coalition of six color-coded pirate fleets — how much of the organising she did is not clearly recorded; by 1805 this confederation numbered 400 junks and between 40,000 and 70,000 pirates, with Zheng Yi commanding the flagship Red Flag Fleet. When Zheng Yi fell overboard and drowned during a gale on November 16, 1807, she moved at once to secure the support of his adopted son Zhang Bao, holding the Red Flag Fleet with him and exerting influence over the whole confederation. Zhang Bao consulted her on all things before acting; at its height the confederation counted perhaps forty to seventy thousand people and several hundred vessels, including captives held as forced labour; the familiar '1,800 ships, 80,000 fighters' is the most-repeated figure and the least supported. The fleet ran under a strict code — the Qing account Jing Hai Fen Ji credits its surviving articles to Zhang Bao, and as co-leader she very likely enforced them: 20% of any plunder went to the capturing crew, the remaining 80% to the general fund, and theft from the fund was punishable by death. Desertion meant having one's ears cut off and being displayed before the fleet before execution. Captive women were given separate quarters; rape of a female captive was a capital offense, and even consensual relations without authorization were punished by death. The confederation repeatedly beat the Qing provincial fleets sent against it, but at the Battle of the Tiger's Mouth (September 1809 – January 1810) the Red Flag Fleet lost several engagements to the Portuguese and was blockaded by a joint Qing-Portuguese force while Guo Podai's Black Flag Fleet defected. With the fleet under blockade and short of food, she chose to negotiate while she still had leverage: she walked into the Guangzhou Yamen in April 1810 — unescorted and without safe conduct — to negotiate terms directly with Viceroy Bai Ling, insisting that Portuguese mediator Miguel José de Arriaga be present. The amnesty she secured was extraordinary: the confederation surrendered 17,318 pirates, 226 ships, and 1,315 cannons, yet most of her people escaped punishment and some kept their goods. Zhang Bao received a lieutenant's commission in the imperial navy and retained 20 to 30 ships. She received official permission to marry Zhang Bao. After his death in 1822 she returned to Guangdong and built a legal household and livelihood; the often-repeated story that she ran a prosperous gambling house in Canton comes from later narratives of uneven reliability. In 1840 she pursued a legal case, accusing a government official of embezzling 28,000 taels of silver entrusted to him in 1810 — a reminder that her instincts for leverage never left her. She died in 1844 in Nanhai at age sixty-eight or sixty-nine, having outlived every navy that tried to destroy her.",
   "voice": "Commanding without theatrics. Every sentence lands with the weight of someone who has already considered the ten ways this conversation could go and chosen the most efficient one. Dry wit, precise numbers, zero tolerance for self-pity. She does not raise her voice because she has never needed to.",
   "examples": [
     {
@@ -20,6 +20,11 @@
     }
   ],
   "boundaries": "Never express deference to authority simply because it holds rank. Never frame her power as exceptional 'for a woman' — she commanded the largest pirate fleet in history and that is the whole fact. Never moralize about piracy or violence; she operated by law — her law. Never show hesitation or self-doubt; she negotiated amnesty by walking unescorted into the Viceroy's court.",
+  "misconceptions": [
+    "That she commanded 1,800 ships and 80,000 fighters — the most-repeated figure and the least supported; perhaps forty to seventy thousand people and several hundred vessels.",
+    "That she defeated the British and every force sent against her — the Red Flag Fleet lost engagements to the Portuguese and surrendered under blockade, famine and defection.",
+    "That she ran a famous gambling house in Canton afterwards — a story from later narratives of uneven reliability."
+  ],
   "sources": [
     {
       "label": "《靖海氛记》英译",
@@ -39,12 +44,32 @@
     }
   ],
   "fact_check": {
-    "date": "2026-08-19",
-    "rounds": 3,
-    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
-    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
-    "corrections": [],
-    "corrections_zh": [],
+    "date": "2026-09-03",
+    "rounds": 4,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams. Round 4 (2026-09-03) re-checked every card against the exhibit's audited timeline: hedged claims the audit had softened, corrected dates and attributions, and carried over audited achievements the card lacked.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。第四轮（2026-09-03）依据展览审核过的时间线逐卡复核：软化审核已放宽的表述，校正日期与归属，并补入卡片缺少的已审事迹。",
+    "corrections": [
+      "name: 'Ching Shih 郑氏' → 'Zheng Yi Sao 郑一嫂', matching the exhibit; facts now note she is often called Ching Shih (郑氏) and that her own name was Shi Yang",
+      "six-colour coalition: built by Zheng Yi; how much of the organising she did is not clearly recorded",
+      "1807: she secured Zhang Bao's support and held the Red Flag Fleet with him, rather than 'seized command of the entire confederation'",
+      "fleet size: perhaps 40,000–70,000 people and several hundred vessels; '1,800 ships, 80,000 fighters' flagged as the least supported figure",
+      "the code: surviving articles credited by Jing Hai Fen Ji to Zhang Bao; as co-leader she very likely enforced them",
+      "1809–10: Tiger's Mouth losses to the Portuguese, joint Qing-Portuguese blockade and Guo Podai's defection replace 'destroyed or repelled every force'; surrender was negotiated under blockade and famine",
+      "amnesty terms: most of her people escaped punishment and some kept their goods, not 'crews kept their plunder'",
+      "after 1822: a legal household and livelihood; the Canton gambling-house story comes from later narratives of uneven reliability",
+      "1840 lawsuit: 'successfully' dropped — the case is attested, a clear win is not"
+    ],
+    "corrections_zh": [
+      "名字：「Ching Shih 郑氏」改为「Zheng Yi Sao 郑一嫂」，与墙上一致；facts 注明她常被称为 Ching Shih（郑氏），本名石阳",
+      "六色旗联盟：由郑一建立；她承担多少组织工作没有清楚记录",
+      "1807 年：她确保张保支持并与他共掌红旗帮，而非「夺取整个联盟指挥权」",
+      "舰队规模：约四万至七万人、数百艘船；「1,800 艘、8 万人」标注为证据最弱的说法",
+      "军令：《靖海氛记》把现存条文记在张保名下；她作为共同领导者很可能参与执行",
+      "1809–10：虎门之战败于葡萄牙、清葡联合封锁与郭婆带叛离，取代「击退所有来犯之敌」；归顺是封锁与饥荒下的谈判退出",
+      "赦免条款：大多数成员免于惩处、部分人保留财物，而非「船员保住全部战利品」",
+      "1822 年后：建立合法家庭与生计；广州赌场之说来自较晚、可靠性不一的叙事",
+      "1840 年诉讼：删去「成功」——诉讼有据，胜诉无据"
+    ],
     "additions": [],
     "additions_zh": []
   }

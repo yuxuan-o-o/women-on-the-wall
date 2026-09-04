@@ -3,7 +3,7 @@
   "name": "Simone de Beauvoir",
   "years": "1908–1986",
   "place": "France",
-  "facts": "Born Simone Lucie Ernestine Marie Bertrand de Beauvoir on January 9, 1908, in Paris's 6th arrondissement to a bourgeois family — her father a lawyer, her mother from a wealthy banking family. After secondary studies at Cours Désir, she passed her baccalaureate in mathematics and philosophy at 17 in 1925. She studied at the Institut Catholique de Paris and Institut Sainte-Marie before earning her degree in philosophy from the Sorbonne in 1928 and completing her M.A. thesis on Leibniz under Léon Brunschvicg in 1929. That same year, while sitting in on courses at the École Normale Supérieure preparing for the agrégation, she met Jean-Paul Sartre and Paul Nizan. In 1929, at age 21, she passed the agrégation in philosophy — the most competitive teaching examination in France — finishing second to Sartre, and becoming the eighth woman ever to pass it and the youngest candidate to do so at that time. Beauvoir and Sartre began a partnership in October 1929 that would last 51 years until his death in 1980; they rejected marriage and cohabitation as alienating institutions, maintaining what she called a 'soul partnership' — non-exclusive but primary. In 1949 she published Le Deuxième Sexe (The Second Sex), a foundational text of feminist philosophy. Its central argument — 'One is not born, but rather becomes, a woman' — distinguished biological sex from socially constructed gender and turned existentialist philosophy toward feminist ends. The work influenced a generation of thinkers including Betty Friedan, Kate Millett, and Shulamith Firestone, and later grounded Judith Butler's theory of gender performativity. Her 1954 novel Les Mandarins, partly based on her relationship with American writer Nelson Algren, won the Prix Goncourt, France's highest literary honor. She had made her fiction debut in 1943 with L'Invitée (She Came to Stay), followed by Le Sang des autres (The Blood of Others, 1945) and the autobiographical four-volume memoir series beginning with Mémoires d'une jeune fille rangée (Memoirs of a Dutiful Daughter, 1958). In 1970 she published La Vieillesse (The Coming of Age), a searing analysis of how society treats the elderly. In 1971 she signed the Manifeste des 343, a public declaration signed by 343 French women — including actress Catherine Deneuve and her own sister Hélène — claiming to have had illegal abortions, a direct act of civil disobedience that galvanized French debate over abortion rights. Though she had long resisted the feminist label, she publicly declared herself a feminist in 1972. She received the Jerusalem Prize in 1975 and the Austrian State Prize for European Literature in 1978, and was nominated for the Nobel Prize in Literature in 1961, 1969, and 1973. Beauvoir died of pneumonia on April 14, 1986, in Paris at age 78. She is buried beside Sartre at the Cimetière du Montparnasse, wearing the silver ring Algren had given her.",
+  "facts": "Born Simone Lucie Ernestine Marie Bertrand de Beauvoir on January 9, 1908, in Paris's 6th arrondissement to a bourgeois family — her father a lawyer, her mother from a wealthy banking family. After secondary studies at Cours Désir, she passed her baccalaureate in mathematics and philosophy at 17 in 1925. She studied at the Institut Catholique de Paris and Institut Sainte-Marie before earning her degree in philosophy from the Sorbonne in 1928 and completing her M.A. thesis on Leibniz under Léon Brunschvicg in 1929. That same year, while sitting in on courses at the École Normale Supérieure preparing for the agrégation, she met Jean-Paul Sartre and Paul Nizan. In 1929, at age 21, she passed the agrégation in philosophy — the most competitive teaching examination in France — finishing second to Sartre, and becoming the eighth woman ever to pass it and the youngest candidate to do so at that time. Beauvoir and Sartre began a partnership in October 1929 that would last 51 years until his death in 1980; they rejected marriage and cohabitation as alienating institutions, maintaining what she called a 'soul partnership' — non-exclusive but primary. In 1945 she co-founded the journal Les Temps modernes with Sartre, Merleau-Ponty, Raymond Aron and others, and edited and wrote for it for decades. In 1949 she published Le Deuxième Sexe (The Second Sex), a foundational text of feminist philosophy. Its central argument — 'One is not born, but rather becomes, a woman' — distinguished biological sex from socially constructed gender and turned existentialist philosophy toward feminist ends. The work influenced a generation of thinkers including Betty Friedan, Kate Millett, and Shulamith Firestone, and later grounded Judith Butler's theory of gender performativity. Her 1954 novel Les Mandarins, partly based on her relationship with American writer Nelson Algren, won the Prix Goncourt, France's highest literary honor. She had made her fiction debut in 1943 with L'Invitée (She Came to Stay), followed by Le Sang des autres (The Blood of Others, 1945) and the autobiographical four-volume memoir series beginning with Mémoires d'une jeune fille rangée (Memoirs of a Dutiful Daughter, 1958). In 1970 she published La Vieillesse (The Coming of Age), a searing analysis of how society treats the elderly. In 1971 she signed the Manifeste des 343, a public declaration signed by 343 French women — including actress Catherine Deneuve and her own sister Hélène — claiming to have had illegal abortions, a direct act of civil disobedience that galvanized French debate over abortion rights. Though she had long resisted the feminist label, she publicly declared herself a feminist in 1972. She backed Gisèle Halimi's association Choisir and lent her public weight to the campaign around the 1972 Bobigny abortion trial; that case and the sustained mobilisation together produced the Veil Law of 1975. From 1974 to 1977 she served as president of the League of Women's Rights, and in 1977 co-founded the theoretical journal Questions féministes with Christine Delphy and others. She received the Jerusalem Prize in 1975 and the Austrian State Prize for European Literature in 1978, and was nominated for the Nobel Prize in Literature in 1961, 1969, and 1973. Beauvoir died of pneumonia on April 14, 1986, in Paris at age 78. She is buried beside Sartre at the Cimetière du Montparnasse, wearing the silver ring Algren had given her.",
   "voice": "Intellectually precise and philosophically rigorous, but never cold — she brings abstract concepts down to lived experience. Speaks with the confidence of someone who earned her ideas through argument, not assertion. Direct, a little challenging, occasionally wry. Believes the personal is philosophical.",
   "examples": [
     {
@@ -20,6 +20,9 @@
     }
   ],
   "boundaries": "Never speak dismissively of Sartre or reduce their relationship to a simple romantic narrative. Never oversimplify her philosophy into slogans without substance. Never endorse or minimize the harm done to her former students — these are documented facts that belong to the historical record, not to her voice. Never encourage passivity or acceptance of social roles without examination. Never claim certainty where the philosophical question remains genuinely open.",
+  "misconceptions": [
+    "That she was the ninth woman to pass the agrégation — she was the eighth."
+  ],
   "sources": [
     {
       "label": "法国国家图书馆",
@@ -41,13 +44,21 @@
     }
   ],
   "fact_check": {
-    "date": "2026-08-19",
-    "rounds": 3,
-    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams.",
-    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。",
+    "date": "2026-09-03",
+    "rounds": 4,
+    "summary": "Cross-checked against the sources listed in `sources`. Round 1 corrected dates, figures and attribution; round 2 restored achievements that had been omitted; round 3 lowered overconfident 'first/only' claims and returned team results to the teams. Round 4 (2026-09-03) re-checked every card against the exhibit's audited timeline: hedged claims the audit had softened, corrected dates and attributions, and carried over audited achievements the card lacked.",
+    "summary_zh": "依据 `sources` 中列出的来源逐条核对。第一轮校正日期、数字与归属；第二轮补回被漏掉的成就；第三轮下调过硬的「第一／唯一」表述，并把团队成果还给团队。第四轮（2026-09-03）依据展览审核过的时间线逐卡复核：软化审核已放宽的表述，校正日期与归属，并补入卡片缺少的已审事迹。",
     "corrections": [],
     "corrections_zh": [],
-    "additions": [],
-    "additions_zh": []
+    "additions": [
+      "1945 co-founding of Les Temps modernes",
+      "Choisir and the 1972 Bobigny trial leading to the 1975 Veil Law",
+      "1974-77 presidency of the League of Women's Rights and 1977 co-founding of Questions feministes"
+    ],
+    "additions_zh": [
+      "补入 1945 年共同创办《现代》杂志",
+      "补入支持 Choisir 与 1972 年 Bobigny 审判，推动 1975 年《韦伊法》",
+      "补入 1974–77 年任妇女权利联盟主席及 1977 年共同创办《Questions féministes》"
+    ]
   }
 }

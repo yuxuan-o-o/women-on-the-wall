@@ -63,6 +63,13 @@
       "type": "string",
       "description": "Things the AI persona must never do or say while in character. Prevents anachronisms, fabricated quotes, out-of-character behavior."
     },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Claims often repeated about her that the sources do not support, each stated as the false claim followed by what the evidence shows. Persona-facing: the AI must not repeat them and may gently correct a visitor who raises one. / 关于她的常见误传，先写误传、再写证据所示；供角色使用。"
+    },
     "sources": {
       "type": "array",
       "description": "Where the facts in this card were checked. Prefer primary documents and official archives, then universities, museums, courts, prize bodies and learned societies, then peer-reviewed work, then reference works and reporting.",
