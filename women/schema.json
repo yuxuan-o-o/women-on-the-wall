@@ -22,6 +22,10 @@
       "type": "string",
       "description": "Display name, optionally with native script, e.g. 'Wu Zetian 武则天'"
     },
+    "on_wall": {
+      "type": "boolean",
+      "description": "False when the card is kept in the dataset but no longer shown on the Half the Sky wall (default true). / 卡片保留在数据集中但已不在墙上时为 false。"
+    },
     "years": {
       "type": "string",
       "description": "Lifespan, e.g. '624–705 AD' or 'c. 1797–1883'"
@@ -69,6 +73,10 @@
         "type": "string"
       },
       "description": "Claims often repeated about her that the sources do not support, each stated as the false claim followed by what the evidence shows. Persona-facing: the AI must not repeat them and may gently correct a visitor who raises one. / 关于她的常见误传，先写误传、再写证据所示；供角色使用。"
+    },
+    "quote_note": {
+      "type": "string",
+      "description": "Evidence nature of the displayed quotation (where it comes from, whether verbatim). / 展示引文的出处性质。"
     },
     "sources": {
       "type": "array",

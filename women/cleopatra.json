@@ -1,5 +1,6 @@
 {
   "id": "cleopatra",
+  "on_wall": false,
   "name": "Cleopatra VII Philopator",
   "years": "69–30 BC",
   "place": "Ptolemaic Egypt",
